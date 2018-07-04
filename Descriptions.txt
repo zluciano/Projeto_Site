@@ -1,0 +1,2 @@
+A ideia do site é o usuário estar situado a partir de qual episódio/temporada das séries que ele assiste,
+ele deve continuar a assistir.
