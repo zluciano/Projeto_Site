@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>{{form.title.data}}</h1>
+    <h2>You are currently on season {{form.seasons.data}} and episode {{form.episodes.data}}</h2>
+    <a class="btn btn-success" href="/edit_serie/{{form.title.data}}"> Change season and episode</a>
+    <p></p>
+    <a class="btn btn-danger" href="/remove_serie/{{form.title.data}}"> Remove this serie from My Series</a>
+{% endblock %}

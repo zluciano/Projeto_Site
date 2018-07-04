@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>{{ form.title.data }}</h1>
+    <p>This serie has a total of {{ form.seasons.data }} seasons</p>
+    <a class="btn btn-success" href="/add_serie/{{ form.title.data }}"> Add this serie to My Series</a>
+{% endblock %}

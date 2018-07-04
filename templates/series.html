@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>Séries</h1>
+    <ul class="list-group">
+        {% for serie in series %}
+            <li class="list-group-item"><a href="serie/{{serie}}">{{serie}}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

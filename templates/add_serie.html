@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  {% from "includes/_formhelpers.html" import render_field %}
+  <form method="POST" action=""></form>
+  <h1>We hope you enjoy watching {{ form.title.data }}!</h1>
+{% endblock %}
